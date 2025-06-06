@@ -5,28 +5,27 @@
   <title>Eid Mubarak by Ontor</title>
   <style>
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
-    }
-
-    html, body {
-      height: 100%;
-      font-family: 'Courier New', monospace;
-      color: #00a2ff;
-      text-align: center;
+      box-sizing: border-box;
     }
 
     body {
       background-image: url('ll.png');
       background-size: cover;
-      background-position: center;
+      background-position: center center;
       background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100vh;
+      width: 100%;
+      font-family: 'Courier New', monospace;
+      color: #00a2ff;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       padding: 20px;
+      text-align: center;
     }
 
     .eid-text {
@@ -65,7 +64,6 @@
       text-decoration: underline;
     }
 
-    /* Media Query for Large Screens */
     @media (min-width: 768px) {
       .eid-text {
         font-size: 60px;
@@ -90,6 +88,7 @@
   <a class="fb-link" href="https://www.facebook.com/ontor.islam.541460" target="_blank" rel="noopener noreferrer">
     Visit my Facebook
   </a>
+
   <audio autoplay loop>
     <source src="111.mpeg" type="audio/mpeg">
   </audio>
