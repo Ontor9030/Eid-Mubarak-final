@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eid Mubarak by Ontor</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Courier New', monospace;
+      color: #00a2ff;
+      text-align: center;
+    }
+
+    body {
+      background-image: url('ll.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .eid-text {
+      font-size: 10vw;
+      font-weight: bold;
+      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ff00ea;
+      }
+      to {
+        text-shadow: 0 0 30px #ff00ff, 0 0 40px #ff00dd;
+      }
+    }
+
+    .message {
+      font-size: 4vw;
+      margin-top: 2vh;
+      text-shadow: 1px 1px 2px #ff0000;
+    }
+
+    .fb-link {
+      margin-top: 3vh;
+      font-size: 3.5vw;
+      color: #fc4f4f;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .fb-link:hover {
+      color: #ff0000;
+      text-decoration: underline;
+    }
+
+    /* Media Query for Large Screens */
+    @media (min-width: 768px) {
+      .eid-text {
+        font-size: 60px;
+      }
+
+      .message {
+        font-size: 24px;
+      }
+
+      .fb-link {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="eid-text">🌙Eid🌙<br> Mubarak </div>
+  <div class="message">
+    — <h3>Wished by Ontor</h3>
+  </div>
+  <a class="fb-link" href="https://www.facebook.com/ontor.islam.541460" target="_blank" rel="noopener noreferrer">
+    Visit my Facebook
+  </a>
+  <audio autoplay loop>
+    <source src="111.mpeg" type="audio/mpeg">
+  </audio>
+
+</body>
+</html>
